@@ -1,0 +1,35 @@
+THÔNG TIN NỘP ĐỀ TÀI CÁ NHÂN
+INT13185 — Nhóm 03
+
+Họ và tên: Đỗ Văn Bình
+MSSV: N24DCDT009
+Lớp: D24CQDT01-N
+Mã đề: DT007
+Tên đề: Một láng giềng gần nhất trên các điểm hai chiều
+
+URL GitHub thật: https://github.com/dovanbinh-ptit/DT007_N24DCDT009_DoVanBinh
+SHA C đầy đủ của mã/test/input dùng chạy và chụp ảnh: 5571dcc3bf29ecbb429c82eb67ea9d8075d1c488
+Permalink tệp thuật toán chính tại C: https://github.com/dovanbinh-ptit/DT007_N24DCDT009_DoVanBinh/blob/5571dcc3bf29ecbb429c82eb67ea9d8075d1c488/src/DeTai.jl
+Permalink tệp kiểm thử tại C: https://github.com/dovanbinh-ptit/DT007_N24DCDT009_DoVanBinh/blob/5571dcc3bf29ecbb429c82eb67ea9d8075d1c488/test/runtests.jl
+SHA S đầy đủ của phiên bản nộp cuối: 8f9b559a21ee023d7f7c2dbc9ed5f24c3e78ebaf
+Xác nhận mã/test/input không đổi giữa C và S, hoặc mô tả phần đã chạy lại: Xác nhận 100% mã nguồn (src/DeTai.jl), tệp chạy thử (demo.jl), kiểm thử (test/runtests.jl) và cấu trúc input hoàn toàn giữ nguyên không đổi giữa commit C và commit S; commit S chỉ bổ sung 11 tệp ảnh chụp màn hình minh chứng thực thi và tài liệu ảnh trong docs/anh_ket_qua/.
+
+Ngôn ngữ và phiên bản: Julia 1.12.7 (x86_64-w64-mingw32)
+Lệnh chạy ví dụ 1: julia --startup-file=no demo.jl
+Lệnh chạy ví dụ 2: julia --startup-file=no demo.jl
+Lệnh nhập dữ liệu mới: julia --startup-file=no demo.jl -i
+Lệnh biên dịch (nếu dùng C++): Không áp dụng (sử dụng ngôn ngữ Julia thông dịch/JIT)
+Lệnh chạy bộ kiểm thử: julia --startup-file=no test/runtests.jl
+Số ca kiểm độc lập: 18
+Số phép kiểm đạt / tổng số phép kiểm: 53 / 53 (100% Pass)
+
+Đã có đủ 11 ảnh cá nhân trong báo cáo và ZIP (Có/Chưa): Có
+Ảnh A10 clone/chạy C đã có (Có/Chưa): Có
+Đã clone SHA S vào thư mục mới và chạy lại (Có/Chưa): Có
+Tóm tắt kết quả chạy lại hai ví dụ và bộ test từ S: Đã clone sạch SHA S vào thư mục tạm kiem_tra_clone; thực thi julia --startup-file=no test/runtests.jl cho kết quả toàn bộ 18 ca kiểm thử độc lập và 53 phép kiểm tra đạt 100% Pass trong 0.5s; chạy demo.jl cho kết quả hai ví dụ VD01 (chi_so=2, nhan="B", d=0.5) và VD02 (chi_so=3, nhan="A", d=0.5) hoàn toàn trùng khớp với kỳ vọng.
+Giảng viên truy cập được GitHub và permalink (Có/Chưa): Có (Kho lưu trữ công khai Public)
+
+Tên tệp Word nộp: N24DCDT009_DT007_DoVanBinh_BaoCao.docx
+Tên tệp PDF nộp: N24DCDT009_DT007_DoVanBinh_BaoCao.pdf
+Tên tệp ZIP mã nguồn nộp: N24DCDT009_DT007_DoVanBinh_MaNguon.zip
+Ngày hoàn tất: 14/11/2026
