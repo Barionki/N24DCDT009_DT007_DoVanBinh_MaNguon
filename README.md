@@ -80,19 +80,19 @@ N24DCDT009_DT007_DoVanBinh/
 
 2. **Chạy minh họa hai ví dụ và các ca đặc trưng (A01–A08)**:
    ```powershell
-   julia --startup-file=no demo.jl
+   julia demo.jl
    ```
 
 3. **Chạy chế độ nhập dữ liệu tương tác từ bàn phím**:
    ```powershell
-   julia --startup-file=no demo.jl -i
+   julia demo.jl -i
    # Hoặc:
-   julia --startup-file=no demo.jl --interactive
+   julia demo.jl --interactive
    ```
 
 4. **Chạy toàn bộ bộ kiểm thử tự động (18 ca, 53 phép kiểm)**:
    ```powershell
-   julia --startup-file=no test/runtests.jl
+   julia runtests.jl
    ```
 
 ---
@@ -109,16 +109,16 @@ N24DCDT009_DT007_DoVanBinh/
 ## 6. Công bố mã nguồn và quy trình kiểm tra tái hiện (Clone test)
 
 ### Địa chỉ kho lưu trữ GitHub chính thức:
-- **Repository URL**: `https://github.com/dovanbinh-ptit/DT007_N24DCDT009_DoVanBinh`
-- **Commit C (Mã/Test/Input tạo kết quả)**: `a7f9c2d1e089007f3b89009aaabbb11223344556` (được ghi nhận trong báo cáo)
-- **Commit S (Bản nộp cuối có ảnh minh chứng)**: `e5d4c3b2a19876543210fedcba09876543210fed` (ghi nhận trong ThongTinNop.txt)
+- **Repository URL**: `https://github.com/Barionki/N24DCDT009_DT007_DoVanBinh_MaNguon.git`
+- **Commit C (Mã/Test/Input tạo kết quả)**: `39635dd5017e4b727f73e531ad6e1a05225c7abe` (được ghi nhận trong báo cáo)
+- **Commit S (Bản nộp cuối có ảnh minh chứng)**: `0fcfe7ef3ba7c767008d8e8bad77c91a98afc1d9` (ghi nhận trong ThongTinNop.txt)
 
 ### Quy trình clone sạch và chạy lại từ đầu:
 ```powershell
-git clone https://github.com/dovanbinh-ptit/DT007_N24DCDT009_DoVanBinh.git kiem_tra_ban_nop
-cd kiem_tra_ban_nop
+git clone https://github.com/Barionki/N24DCDT009_DT007_DoVanBinh_MaNguon.git kiem_tra_clone
+cd kiem_tra_clone
 git rev-parse HEAD
 julia --version
-julia --startup-file=no demo.jl
-julia --startup-file=no test/runtests.jl
+julia demo.jl
+julia runtests.jl
 ```
